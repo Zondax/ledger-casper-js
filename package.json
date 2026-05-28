@@ -9,13 +9,13 @@
     "Javascript",
     "Casper"
   ],
-  "homepage": "https://github.com/zondax/ledger-casper",
+  "homepage": "https://github.com/Zondax/ledger-casper",
   "bugs": {
-    "url": "https://github.com/zondax/ledger-casper/issues"
+    "url": "https://github.com/Zondax/ledger-casper/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zondax/ledger-casper.git"
+    "url": "git+https://github.com/Zondax/ledger-casper.git"
   },
   "license": "Apache-2.0",
   "author": "Zondax AG",
