@@ -14,8 +14,8 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  ******************************************************************************* */
-import Transport from "@ledgerhq/hw-transport";
 import {
+  LedgerTransport,
   ResponseAddress,
   ResponseAppInfo,
   ResponseSign,
@@ -62,9 +62,9 @@ function processGetAddrResponse(response: Buffer) {
 }
 
 export default class CasperApp {
-  private transport: Transport;
+  private transport: LedgerTransport;
 
-  constructor(transport: Transport) {
+  constructor(transport: LedgerTransport) {
     if (!transport) {
       throw new Error("Transport has not been defined");
     }
